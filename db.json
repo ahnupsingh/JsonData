@@ -1,25 +1,25 @@
 {
 	"videos": [
-    {
-      "id": 1,
-      "name": "Nepse index surges by 4.85 pc",
-      "link": "https://thehimalayantimes.com/business/nepse-index-surges-by-4-85-pc/",
-      "imageUrl": "https://1hu9t72zwflj44abyp2h0pfe-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Nepse-3.jpg",
-      "numberOfViews": 100,
-    },
-    {
-      "id": 2,
-      "name": "Nepse index surges by 4.85 pc",
-      "link": "https://thehimalayantimes.com/business/nepse-index-surges-by-4-85-pc/",
-      "imageUrl": "https://1hu9t72zwflj44abyp2h0pfe-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Nepse-3.jpg",
-      "numberOfViews": 100,
-    },
-    {
-      "id": 3,
-      "name": "Nepse index surges by 4.85 pc",
-      "link": "https://thehimalayantimes.com/business/nepse-index-surges-by-4-85-pc/",
-      "imageUrl": "https://1hu9t72zwflj44abyp2h0pfe-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Nepse-3.jpg",
-      "numberOfViews": 100,
-    }
-  ]
+		{
+			"id": 1,
+			"name": "Nepse index surges by 4.85 pc",
+			"link": "https://thehimalayantimes.com/business/nepse-index-surges-by-4-85-pc/",
+			"imageUrl": "https://1hu9t72zwflj44abyp2h0pfe-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Nepse-3.jpg",
+			"numberOfViews": 100
+		},
+		{
+			"id": 2,
+			"name": "Nepse index surges by 4.85 pc",
+			"link": "https://thehimalayantimes.com/business/nepse-index-surges-by-4-85-pc/",
+			"imageUrl": "https://1hu9t72zwflj44abyp2h0pfe-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Nepse-3.jpg",
+			"numberOfViews": 100
+		},
+		{
+			"id": 3,
+			"name": "Nepse index surges by 4.85 pc",
+			"link": "https://thehimalayantimes.com/business/nepse-index-surges-by-4-85-pc/",
+			"imageUrl": "https://1hu9t72zwflj44abyp2h0pfe-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Nepse-3.jpg",
+			"numberOfViews": 100
+		}
+	]
 }
