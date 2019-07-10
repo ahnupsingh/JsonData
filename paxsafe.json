@@ -36,7 +36,8 @@
 		"version": "48",
 		"merchant": "TESTPAXSAFCOM201",
 		"timeOfRecord": "2018-11-02T05:48:47.718Z",
-		"gatewayEntryPoint": "WEB_SERVICES_API"
+		"gatewayEntryPoint": "WEB_SERVICES_API",
+		"a": 1
 	},
 	"response": {
 		"gatewayCode": "APPROVED",
