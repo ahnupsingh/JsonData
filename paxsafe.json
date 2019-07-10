@@ -31,9 +31,11 @@
 		"merchantCategoryCode": "6513",
 		"totalAuthorizedAmount": 5.0
 	},
-	"result": "SUCCESS",
-	"version": "48",
-	"merchant": "TESTPAXSAFCOM201",
+	"data": {
+		"result": "SUCCESS",
+		"version": "48",
+		"merchant": "TESTPAXSAFCOM201"
+	},
 	"response": {
 		"gatewayCode": "APPROVED",
 		"acquirerCode": "00",
