@@ -86,6 +86,7 @@
 		"financialNetworkCode": "777",
 		"cardSecurityCodeError": "P",
 		"transactionIdentifier": "123456789",
-		"commercialCardIndicator": "3"
+		"commercialCardIndicator": "3",
+		"a": "1"
 	}
 }
