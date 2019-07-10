@@ -1,0 +1,89 @@
+{
+	"risk": {
+		"response": {
+			"rule": [
+				{
+					"data": "222300",
+					"name": "MERCHANT_BIN_RANGE",
+					"type": "MERCHANT_RULE",
+					"recommendation": "NO_ACTION"
+				},
+				{"data": "P", "name": "MERCHANT_CSC", "type": "MERCHANT_RULE", "recommendation": "NO_ACTION"},
+				{"name": "SUSPECT_CARD_LIST", "type": "MERCHANT_RULE", "recommendation": "NO_ACTION"},
+				{"name": "TRUSTED_CARD_LIST", "type": "MERCHANT_RULE", "recommendation": "NO_ACTION"},
+				{"data": "222300", "name": "MSO_BIN_RANGE", "type": "MSO_RULE", "recommendation": "NO_ACTION"},
+				{"data": "P", "name": "MSO_CSC", "type": "MSO_RULE", "recommendation": "NO_ACTION"}
+			],
+			"review": {"decision": "NOT_REQUIRED"},
+			"gatewayCode": "ACCEPTED"
+		}
+	},
+	"order": {
+		"id": "7834",
+		"amount": 5.0,
+		"status": "CAPTURED",
+		"currency": "AUD",
+		"chargeback": {"amount": 0, "currency": "AUD"},
+		"creationTime": "2018-11-02T05:48:47.718Z",
+		"fundingStatus": "NOT_SUPPORTED",
+		"totalCapturedAmount": 5.0,
+		"totalRefundedAmount": 0.0,
+		"merchantCategoryCode": "6513",
+		"totalAuthorizedAmount": 5.0
+	},
+	"result": "SUCCESS",
+	"version": "48",
+	"merchant": "TESTPAXSAFCOM201",
+	"response": {
+		"gatewayCode": "APPROVED",
+		"acquirerCode": "00",
+		"acquirerMessage": "Approved",
+		"cardSecurityCode": {"gatewayCode": "NOT_PROCESSED", "acquirerCode": "P"},
+		"gatewayRecommendation": "PROCEED"
+	},
+	"transaction": {
+		"id": "11",
+		"type": "PAYMENT",
+		"amount": 5.0,
+		"source": "INTERNET",
+		"funding": {"status": "NOT_SUPPORTED"},
+		"receipt": "830605117289",
+		"acquirer": {
+			"id": "CBA_S2I",
+			"date": "1102",
+			"batch": 20181102,
+			"timeZone": "+1100",
+			"merchantId": "353109299104008",
+			"transactionId": "123456789",
+			"settlementDate": "2018-11-02"
+		},
+		"currency": "AUD",
+		"terminal": "CBAS2I05",
+		"frequency": "SINGLE",
+		"authorizationCode": "117289"
+	},
+	"timeOfRecord": "2018-11-02T05:48:47.718Z",
+	"sourceOfFunds": {
+		"type": "CARD",
+		"provided": {
+			"card": {
+				"brand": "MASTERCARD",
+				"expiry": {"year": "21", "month": "5"},
+				"number": "222300xxxxxx0023",
+				"scheme": "MASTERCARD",
+				"fundingMethod": "CREDIT"
+			}
+		}
+	},
+	"gatewayEntryPoint": "WEB_SERVICES_API",
+	"authorizationResponse": {
+		"stan": "117289",
+		"responseCode": "00",
+		"commercialCard": "888",
+		"processingCode": "003000",
+		"financialNetworkCode": "777",
+		"cardSecurityCodeError": "P",
+		"transactionIdentifier": "123456789",
+		"commercialCardIndicator": "3"
+	}
+}
