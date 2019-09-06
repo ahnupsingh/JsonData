@@ -1,92 +1,97 @@
 {
-	"risk": {
-		"response": {
-			"rule": [
-				{
-					"data": "222300",
-					"name": "MERCHANT_BIN_RANGE",
-					"type": "MERCHANT_RULE",
-					"recommendation": "NO_ACTION"
-				},
-				{"data": "P", "name": "MERCHANT_CSC", "type": "MERCHANT_RULE", "recommendation": "NO_ACTION"},
-				{"name": "SUSPECT_CARD_LIST", "type": "MERCHANT_RULE", "recommendation": "NO_ACTION"},
-				{"name": "TRUSTED_CARD_LIST", "type": "MERCHANT_RULE", "recommendation": "NO_ACTION"},
-				{"data": "222300", "name": "MSO_BIN_RANGE", "type": "MSO_RULE", "recommendation": "NO_ACTION"},
-				{"data": "P", "name": "MSO_CSC", "type": "MSO_RULE", "recommendation": "NO_ACTION"}
-			],
-			"review": {"decision": "NOT_REQUIRED"},
-			"gatewayCode": "ACCEPTED"
-		}
-	},
-	"order": {
-		"id": "7834",
-		"amount": 5.0,
-		"status": "CAPTURED",
-		"currency": "AUD",
-		"chargeback": {"amount": 0, "currency": "AUD"},
-		"creationTime": "2018-11-02T05:48:47.718Z",
-		"fundingStatus": "NOT_SUPPORTED",
-		"totalCapturedAmount": 5.0,
-		"totalRefundedAmount": 0.0,
-		"merchantCategoryCode": "6513",
-		"totalAuthorizedAmount": 5.0
-	},
-	"data": {
-		"result": "SUCCESS",
-		"version": "48",
-		"merchant": "TESTPAXSAFCOM201",
-		"timeOfRecord": "2018-11-02T05:48:47.718Z",
-		"gatewayEntryPoint": "WEB_SERVICES_API"
-	},
-	"response": {
-		"gatewayCode": "APPROVED",
-		"acquirerCode": "00",
-		"acquirerMessage": "Approved",
-		"cardSecurityCode": {"gatewayCode": "NOT_PROCESSED", "acquirerCode": "P"},
-		"gatewayRecommendation": "PROCEED"
-	},
-	"transaction": {
-		"id": "11",
-		"type": "PAYMENT",
-		"amount": 5.0,
-		"source": "INTERNET",
-		"funding": {"status": "NOT_SUPPORTED"},
-		"receipt": "830605117289",
-		"acquirer": {
-			"id": "CBA_S2I",
-			"date": "1102",
-			"batch": 20181102,
-			"timeZone": "+1100",
-			"merchantId": "353109299104008",
-			"transactionId": "123456789",
-			"settlementDate": "2018-11-02"
+	"posts": [
+		{
+			"title": "Smart school at Illam",
+			"id": 5,
+			"image_url": "https://myrepublica.nagariknetwork.com/uploads/media/2019/August/illam%20school.jpg",
+			"short_description": "The oldest school in Ilam district,  Adarsha Secondary School, was recently declared a ‘smart school’. Technology friendly education, excellent results, affordable fees, glorious history, mesmerizing location, pleasant climate and excellent school infrastructures – all combined has made it a choice of every",
+			"source_url": "https://myrepublica.nagariknetwork.com/news/ilam-s-oldest-public-school-turns-into-smart-school/",
+			"source": "Nagarik",
+			"created_at": "about 4 hours ago",
+			"url": "/posts/5",
+			"likesCount": 20
 		},
-		"currency": "AUD",
-		"terminal": "CBAS2I05",
-		"frequency": "SINGLE",
-		"authorizationCode": "117289"
-	},
-	"sourceOfFunds": {
-		"type": "CARD",
-		"provided": {
-			"card": {
-				"brand": "MASTERCARD",
-				"expiry": {"year": "21", "month": "5"},
-				"number": "222300xxxxxx0023",
-				"scheme": "MASTERCARD",
-				"fundingMethod": "CREDIT"
-			}
+		{
+			"title": "Tourism-friendly infrastructure to be constructed in Muktinath",
+			"id": 4,
+			"image_url": "https://myrepublica.nagariknetwork.com/uploads/media/2019/August/Muktinath_Temple.jpg",
+			"short_description": "Nepal Tourism Board Pokhara office is to support building tourism-friendly infrastructure in the Jomsom Mukti area of Mustang district. Considering a large number of domestic as well as Indian tourists visiting the area, the road from Rani Pauwa to the Muktinath temple will be made disabled-friendly. The road will facilitate the traveling of the physically weak pilgrims coming to pay obeisance to Muktinath.",
+			"source_url": "https://myrepublica.nagariknetwork.com/news/tourism-friendly-infrastructure-to-be-construction-in-muktinath/",
+			"source": "Nagarik",
+			"created_at": "about 4 hours ago",
+			"url": "/posts/4",
+			"likesCount": 40
+		},
+		{
+			"title": "Prime Minister Oli's treatment continues",
+			"id": 3,
+			"image_url": "https://pbs.twimg.com/profile_images/869121160734097409/Cbup1sCn_normal.jpg",
+			"short_description": "Prime Minister KP Sharma Oli’s treatment continues in Singapore where he is being treated for his condition through the process of plasmapheresis.\r\n\r\nBishnu Rimal, Chief Advisor to the Prime Minister, through his tweet, mentioned that PM Oli’s health was normal and the treatment procedure would take a week to complete.",
+			"source_url": "https://thehimalayantimes.com/nepal/prime-minister-olis-treatment-continues/",
+			"source": "Himalayan",
+			"created_at": "8 days ago",
+			"url": "/posts/3",
+			"likesCount": 50
+		},
+		{
+			"title": "Nepal’s electric transport future is here",
+			"id": 2,
+			"image_url": "https://www.nepalitimes.com/wp-content/uploads/2019/04/page-4-5a.jpg",
+			"short_description": "We have seen that electric public transportation can improve public health by reducing pollution,” says Sajha Yatayat Executive Director Bhushan Tuladhar. “Recent advances in electric transport provide the solution. What is sorely lacking in Nepal is political will, long-term commitment and strategic planning for electric mobility.\"",
+			"source_url": "https://www.nepalitimes.com/banner/nepals-electric-transport-future-is-here/",
+			"source": "",
+			"created_at": "3 months ago",
+			"url": "/posts/2",
+			"likesCount": 80
+		},
+		{
+			"title": "Nepal enter U-16 final, to meet Malaysia for title",
+			"id": 1,
+			"image_url": "http://assets-cdn.ekantipur.com/images/third-party/miscellaneous/Dudhraaj--right--and-Nikhil-Kumar-Singh-28042019091249-1000x0.jpg",
+			"short_description": "Nepal entered the final of the ACC U-16 Eastern Region Tournament with a four-wicket victory over Hong Kong at the Prem Tinsulanonda International School ground in Chiang Mai, Thailand on Saturday.Man-of-the-match Nikhil Kumar Singh picked up four wickets in an economical bowling display as Hong Kong were bundled out for just 86 runs in 32.2 overs. Nepal didn’t have big contributors in the game before they reached 87-6 in 21.4 overs. In the final on Sunday, Nepal will take on Malaysia.",
+			"source_url": "http://kathmandupost.ekantipur.com/news/2019-04-28/nepal-enter-u-16-final-to-meet-malaysia-for-title.html",
+			"source": "",
+			"created_at": "3 months ago",
+			"url": "/posts/1",
+			"likesCount": 100
 		}
-	},
-	"authorizationResponse": {
-		"stan": "117289",
-		"responseCode": "00",
-		"commercialCard": "888",
-		"processingCode": "003000",
-		"financialNetworkCode": "777",
-		"cardSecurityCodeError": "P",
-		"transactionIdentifier": "123456789",
-		"commercialCardIndicator": "3",
-		"a": "1"
-	}
+	],
+	"tags": [
+		{
+			"title": "Experience",
+			"url": "/posts/?tag=Experience"
+		},
+		{
+			"title": "Media",
+			"url": "/posts/?tag=Media"
+		},
+		{
+			"title": "Social",
+			"url": "/posts/?tag=Social"
+		},
+		{
+			"title": "Training",
+			"url": "/posts/?tag=Training"
+		},
+		{
+			"title": "Sports",
+			"url": "/posts/?tag=Sports"
+		},
+		{
+			"title": "General",
+			"url": "/posts/?tag=General"
+		},
+		{
+			"title": "Politics",
+			"url": "/posts/?tag=Politics"
+		},
+		{
+			"title": "Tourism",
+			"url": "/posts/?tag=Tourism"
+		},
+		{
+			"title": "Education",
+			"url": "/posts/?tag=Education"
+		}
+	]
 }
